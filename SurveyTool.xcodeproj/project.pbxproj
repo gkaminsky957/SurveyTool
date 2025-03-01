@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1794EBD62D55997E0022C92F /* SurveyToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EBD52D55997E0022C92F /* SurveyToolApp.swift */; };
+		1794EBD82D55997E0022C92F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EBD72D55997E0022C92F /* ContentView.swift */; };
+		1794EBDA2D5599800022C92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1794EBD92D5599800022C92F /* Assets.xcassets */; };
+		1794EBDD2D5599800022C92F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1794EBDC2D5599800022C92F /* Preview Assets.xcassets */; };
+		1794EBE72D5599810022C92F /* SurveyToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EBE62D5599810022C92F /* SurveyToolTests.swift */; };
+		1794EBF12D5599810022C92F /* SurveyToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EBF02D5599810022C92F /* SurveyToolUITests.swift */; };
+		1794EBF32D5599810022C92F /* SurveyToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EBF22D5599810022C92F /* SurveyToolUITestsLaunchTests.swift */; };
+		1794EC032D559C960022C92F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EC022D559C960022C92F /* HomeScreenView.swift */; };
+		1794EC052D559CB50022C92F /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EC042D559CB50022C92F /* HomeScreenViewModel.swift */; };
+		1794EC072D559D560022C92F /* SurveyStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EC062D559D560022C92F /* SurveyStorageService.swift */; };
+		1794EC092D559D9C0022C92F /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EC082D559D9C0022C92F /* SurveyModel.swift */; };
+		1794EC0B2D55A6570022C92F /* SurveyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794EC0A2D55A6570022C92F /* SurveyCard.swift */; };
+		17A1A92C2D565F46007A6735 /* SurveyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1A92B2D565F46007A6735 /* SurveyDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1794EBE32D5599810022C92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1794EBCA2D55997E0022C92F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1794EBD12D55997E0022C92F;
+			remoteInfo = SurveyTool;
+		};
+		1794EBED2D5599810022C92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1794EBCA2D55997E0022C92F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1794EBD12D55997E0022C92F;
+			remoteInfo = SurveyTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1794EBD22D55997E0022C92F /* SurveyTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1794EBD52D55997E0022C92F /* SurveyToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyToolApp.swift; sourceTree = "<group>"; };
+		1794EBD72D55997E0022C92F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1794EBD92D5599800022C92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1794EBDC2D5599800022C92F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1794EBE22D5599810022C92F /* SurveyToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1794EBE62D5599810022C92F /* SurveyToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyToolTests.swift; sourceTree = "<group>"; };
+		1794EBEC2D5599810022C92F /* SurveyToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1794EBF02D5599810022C92F /* SurveyToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyToolUITests.swift; sourceTree = "<group>"; };
+		1794EBF22D5599810022C92F /* SurveyToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1794EC022D559C960022C92F /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		1794EC042D559CB50022C92F /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		1794EC062D559D560022C92F /* SurveyStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyStorageService.swift; sourceTree = "<group>"; };
+		1794EC082D559D9C0022C92F /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		1794EC0A2D55A6570022C92F /* SurveyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCard.swift; sourceTree = "<group>"; };
+		17A1A92B2D565F46007A6735 /* SurveyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1794EBCF2D55997E0022C92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBDF2D5599810022C92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBE92D5599810022C92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1794EBC92D55997E0022C92F = {
+			isa = PBXGroup;
+			children = (
+				1794EBD42D55997E0022C92F /* SurveyTool */,
+				1794EBE52D5599810022C92F /* SurveyToolTests */,
+				1794EBEF2D5599810022C92F /* SurveyToolUITests */,
+				1794EBD32D55997E0022C92F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1794EBD32D55997E0022C92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1794EBD22D55997E0022C92F /* SurveyTool.app */,
+				1794EBE22D5599810022C92F /* SurveyToolTests.xctest */,
+				1794EBEC2D5599810022C92F /* SurveyToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1794EBD42D55997E0022C92F /* SurveyTool */ = {
+			isa = PBXGroup;
+			children = (
+				1794EBFF2D559B080022C92F /* homeScreen */,
+				17A1A92D2D57D02F007A6735 /* SurveyDetailsScreen */,
+				17A1A92F2D57D06E007A6735 /* StorageService */,
+				1794EBD52D55997E0022C92F /* SurveyToolApp.swift */,
+				1794EBD72D55997E0022C92F /* ContentView.swift */,
+				1794EBD92D5599800022C92F /* Assets.xcassets */,
+				1794EBDB2D5599800022C92F /* Preview Content */,
+			);
+			path = SurveyTool;
+			sourceTree = "<group>";
+		};
+		1794EBDB2D5599800022C92F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1794EBDC2D5599800022C92F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1794EBE52D5599810022C92F /* SurveyToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1794EBE62D5599810022C92F /* SurveyToolTests.swift */,
+			);
+			path = SurveyToolTests;
+			sourceTree = "<group>";
+		};
+		1794EBEF2D5599810022C92F /* SurveyToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1794EBF02D5599810022C92F /* SurveyToolUITests.swift */,
+				1794EBF22D5599810022C92F /* SurveyToolUITestsLaunchTests.swift */,
+			);
+			path = SurveyToolUITests;
+			sourceTree = "<group>";
+		};
+		1794EBFF2D559B080022C92F /* homeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17A1A9282D565A2E007A6735 /* View */,
+				17A1A9292D565A51007A6735 /* ViewModel */,
+				17A1A92A2D565A7C007A6735 /* Model */,
+			);
+			path = homeScreen;
+			sourceTree = "<group>";
+		};
+		17A1A9282D565A2E007A6735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1794EC0A2D55A6570022C92F /* SurveyCard.swift */,
+				1794EC022D559C960022C92F /* HomeScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17A1A9292D565A51007A6735 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1794EC042D559CB50022C92F /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17A1A92A2D565A7C007A6735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1794EC082D559D9C0022C92F /* SurveyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A1A92D2D57D02F007A6735 /* SurveyDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				17A1A92E2D57D051007A6735 /* View */,
+			);
+			path = SurveyDetailsScreen;
+			sourceTree = "<group>";
+		};
+		17A1A92E2D57D051007A6735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17A1A92B2D565F46007A6735 /* SurveyDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17A1A92F2D57D06E007A6735 /* StorageService */ = {
+			isa = PBXGroup;
+			children = (
+				1794EC062D559D560022C92F /* SurveyStorageService.swift */,
+			);
+			path = StorageService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1794EBD12D55997E0022C92F /* SurveyTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1794EBF62D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyTool" */;
+			buildPhases = (
+				1794EBCE2D55997E0022C92F /* Sources */,
+				1794EBCF2D55997E0022C92F /* Frameworks */,
+				1794EBD02D55997E0022C92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyTool;
+			productName = SurveyTool;
+			productReference = 1794EBD22D55997E0022C92F /* SurveyTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1794EBE12D5599810022C92F /* SurveyToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1794EBF92D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyToolTests" */;
+			buildPhases = (
+				1794EBDE2D5599810022C92F /* Sources */,
+				1794EBDF2D5599810022C92F /* Frameworks */,
+				1794EBE02D5599810022C92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1794EBE42D5599810022C92F /* PBXTargetDependency */,
+			);
+			name = SurveyToolTests;
+			productName = SurveyToolTests;
+			productReference = 1794EBE22D5599810022C92F /* SurveyToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1794EBEB2D5599810022C92F /* SurveyToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1794EBFC2D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyToolUITests" */;
+			buildPhases = (
+				1794EBE82D5599810022C92F /* Sources */,
+				1794EBE92D5599810022C92F /* Frameworks */,
+				1794EBEA2D5599810022C92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1794EBEE2D5599810022C92F /* PBXTargetDependency */,
+			);
+			name = SurveyToolUITests;
+			productName = SurveyToolUITests;
+			productReference = 1794EBEC2D5599810022C92F /* SurveyToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1794EBCA2D55997E0022C92F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1794EBD12D55997E0022C92F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1794EBE12D5599810022C92F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1794EBD12D55997E0022C92F;
+					};
+					1794EBEB2D5599810022C92F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1794EBD12D55997E0022C92F;
+					};
+				};
+			};
+			buildConfigurationList = 1794EBCD2D55997E0022C92F /* Build configuration list for PBXProject "SurveyTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1794EBC92D55997E0022C92F;
+			productRefGroup = 1794EBD32D55997E0022C92F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1794EBD12D55997E0022C92F /* SurveyTool */,
+				1794EBE12D5599810022C92F /* SurveyToolTests */,
+				1794EBEB2D5599810022C92F /* SurveyToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1794EBD02D55997E0022C92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1794EBDD2D5599800022C92F /* Preview Assets.xcassets in Resources */,
+				1794EBDA2D5599800022C92F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBE02D5599810022C92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBEA2D5599810022C92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1794EBCE2D55997E0022C92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1794EC032D559C960022C92F /* HomeScreenView.swift in Sources */,
+				1794EC092D559D9C0022C92F /* SurveyModel.swift in Sources */,
+				1794EC052D559CB50022C92F /* HomeScreenViewModel.swift in Sources */,
+				1794EC0B2D55A6570022C92F /* SurveyCard.swift in Sources */,
+				1794EBD82D55997E0022C92F /* ContentView.swift in Sources */,
+				17A1A92C2D565F46007A6735 /* SurveyDetailView.swift in Sources */,
+				1794EC072D559D560022C92F /* SurveyStorageService.swift in Sources */,
+				1794EBD62D55997E0022C92F /* SurveyToolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBDE2D5599810022C92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1794EBE72D5599810022C92F /* SurveyToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1794EBE82D5599810022C92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1794EBF32D5599810022C92F /* SurveyToolUITestsLaunchTests.swift in Sources */,
+				1794EBF12D5599810022C92F /* SurveyToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1794EBE42D5599810022C92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1794EBD12D55997E0022C92F /* SurveyTool */;
+			targetProxy = 1794EBE32D5599810022C92F /* PBXContainerItemProxy */;
+		};
+		1794EBEE2D5599810022C92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1794EBD12D55997E0022C92F /* SurveyTool */;
+			targetProxy = 1794EBED2D5599810022C92F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1794EBF42D5599810022C92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1794EBF52D5599810022C92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1794EBF72D5599810022C92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyTool/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1794EBF82D5599810022C92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurveyTool/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1794EBFA2D5599810022C92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5P6YWSRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyTool";
+			};
+			name = Debug;
+		};
+		1794EBFB2D5599810022C92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5P6YWSRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyTool";
+			};
+			name = Release;
+		};
+		1794EBFD2D5599810022C92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5P6YWSRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyTool;
+			};
+			name = Debug;
+		};
+		1794EBFE2D5599810022C92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF5P6YWSRK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gennady.kaminsky.SurveyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurveyTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1794EBCD2D55997E0022C92F /* Build configuration list for PBXProject "SurveyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794EBF42D5599810022C92F /* Debug */,
+				1794EBF52D5599810022C92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1794EBF62D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794EBF72D5599810022C92F /* Debug */,
+				1794EBF82D5599810022C92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1794EBF92D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794EBFA2D5599810022C92F /* Debug */,
+				1794EBFB2D5599810022C92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1794EBFC2D5599810022C92F /* Build configuration list for PBXNativeTarget "SurveyToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1794EBFD2D5599810022C92F /* Debug */,
+				1794EBFE2D5599810022C92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1794EBCA2D55997E0022C92F /* Project object */;
+}
