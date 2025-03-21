@@ -8,3 +8,5 @@ This application is simple Survey tool that allows the user to answer the survey
 - Survey details screen
   - Shows the survey question and two buttons that allow the user to select `Yes` or `No` as the answer to a survey question.
   - if the new question needs to be created, it is created by choosing a random question out of ten pre-defined questions.
+ 
+Application is designed by using MVVM architecture design pattern and SwiftUI for building UI screen. It uses user defaults for storing surveys in permanent memory on device. 
